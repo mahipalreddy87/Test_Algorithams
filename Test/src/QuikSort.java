@@ -6,7 +6,7 @@ public class QuikSort{
 	{ 
 		int[] input = { 23, 31, 1, 21, 36, 72}; 
 		System.out.println("Before sorting : " + Arrays.toString(input)); 
-		
+		System.out.println("Before sorting : " ); 
 		quickSort(input); // sort the integer array using quick sort algorithm 
 		
 		System.out.println("After sorting : " + Arrays.toString(input)); // input with duplicates
